@@ -97,7 +97,7 @@ void loop() {
         Serial.println(x);
         for (int i = 0; i <= 17; i += 1) {
           //        SerialBT.print("\n");
-          SerialBT.print("  ");
+         // SerialBT.print("  ");
           SerialBT.print(arr[i]);
           SerialBT.print(",");
           if (i == 17) {
