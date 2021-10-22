@@ -9,7 +9,7 @@ BluetoothSerial SerialBT;
 
 int arr[20]; char c;
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   SerialBT.begin("ESP32test_Azim");
   Wire.setClock(400000);
   //  if (sensor.begin() == false)
